@@ -1,0 +1,688 @@
+28-Nov-2023 08:57:38.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 08:57:38.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 08:57:38.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 08:57:38.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 08:57:38.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 08:57:38.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 08:57:38.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 08:57:38.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 08:57:38.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 08:57:38.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 08:57:38.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 08:57:38.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 08:57:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 08:57:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 08:57:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 08:57:38.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 08:57:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 08:57:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 08:57:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 08:57:38.758 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 08:57:41.727 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 08:57:41.868 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4951] milliseconds
+28-Nov-2023 08:57:42.180 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 08:57:42.180 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 08:57:42.305 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 08:57:51.338 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 08:57:51.352 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 08:57:51.352 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 08:57:51.352 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 08:57:52.883 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 08:57:53.133 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+28-Nov-2023 08:57:53.305 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [11,000] ms
+28-Nov-2023 08:57:53.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 08:57:53.477 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11597] milliseconds
+28-Nov-2023 17:04:06.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 17:04:07.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 17:04:07.021 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 17:04:07.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 17:04:07.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 17:04:07.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 17:04:07.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 17:04:07.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 17:04:07.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 17:04:07.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:04:07.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:04:07.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 17:04:07.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 17:04:07.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 17:04:07.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 17:04:07.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 17:04:07.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 17:04:07.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 17:04:07.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 17:04:07.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 17:04:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 17:04:07.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:04:07.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:04:07.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 17:04:07.137 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 17:04:07.138 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 17:04:07.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 17:04:07.156 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 17:04:09.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:04:09.851 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3783] milliseconds
+28-Nov-2023 17:04:10.132 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 17:04:10.132 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 17:04:10.242 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 17:04:18.148 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 17:04:18.164 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 17:04:18.164 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 17:04:18.164 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 17:04:19.507 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 17:04:19.804 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+28-Nov-2023 17:04:19.867 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [9,625] ms
+28-Nov-2023 17:04:19.882 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:04:20.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10266] milliseconds
+28-Nov-2023 17:14:40.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 17:14:40.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 17:14:40.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 17:14:40.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 17:14:40.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 17:14:40.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 17:14:40.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 17:14:40.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 17:14:40.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 17:14:40.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:14:40.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:14:40.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 17:14:40.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 17:14:40.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 17:14:40.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 17:14:40.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 17:14:40.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 17:14:40.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 17:14:40.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 17:14:40.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 17:14:40.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 17:14:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:14:41.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:14:41.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 17:14:41.018 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 17:14:41.020 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 17:14:41.022 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 17:14:41.052 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 17:14:43.727 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:14:43.836 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3956] milliseconds
+28-Nov-2023 17:14:44.118 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 17:14:44.118 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 17:14:44.243 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 17:14:52.368 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 17:14:52.368 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 17:14:52.368 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 17:14:52.368 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 17:14:53.774 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 17:14:53.993 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [9,734] ms
+28-Nov-2023 17:14:53.993 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:14:54.446 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10609] milliseconds
+28-Nov-2023 17:33:16.822 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+28-Nov-2023 17:33:17.152 SEVERE [Catalina-utility-1] org.apache.catalina.session.StandardManager.stopInternal Exception unloading sessions to persistent storage
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:249)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2348)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:875)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1376)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3502)
+		at java.base/java.lang.Class.getDeclaredMethod(Class.java:2770)
+		at java.base/java.io.ObjectStreamClass.getPrivateMethod(ObjectStreamClass.java:1524)
+		at java.base/java.io.ObjectStreamClass$2.run(ObjectStreamClass.java:412)
+		at java.base/java.io.ObjectStreamClass$2.run(ObjectStreamClass.java:383)
+		at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+		at java.base/java.io.ObjectStreamClass.<init>(ObjectStreamClass.java:383)
+		at java.base/java.io.ObjectStreamClass$Caches$1.computeValue(ObjectStreamClass.java:109)
+		at java.base/java.io.ObjectStreamClass$Caches$1.computeValue(ObjectStreamClass.java:106)
+		at java.base/java.io.ClassCache$1.computeValue(ClassCache.java:73)
+		at java.base/java.io.ClassCache$1.computeValue(ClassCache.java:70)
+		at java.base/java.lang.ClassValue.getFromHashMap(ClassValue.java:229)
+		at java.base/java.lang.ClassValue.getFromBackup(ClassValue.java:211)
+		at java.base/java.lang.ClassValue.get(ClassValue.java:117)
+		at java.base/java.io.ClassCache.get(ClassCache.java:84)
+		at java.base/java.io.ObjectStreamClass.lookup(ObjectStreamClass.java:362)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+		at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1581)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1538)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1390)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1186)
+		at java.base/java.io.ObjectOutputStream$PutFieldImpl.writeFields(ObjectOutputStream.java:1725)
+		at java.base/java.io.ObjectOutputStream.writeFields(ObjectOutputStream.java:489)
+		at java.base/java.util.Vector.writeObject(Vector.java:1188)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1525)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1581)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1538)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1581)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1538)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1581)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1538)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1581)
+		at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1538)
+		at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1447)
+		at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1190)
+		at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:355)
+		at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1647)
+		at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+		at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:307)
+		at org.apache.catalina.session.StandardManager.unload(StandardManager.java:259)
+		at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:374)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5143)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:766)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 84 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 88 more
+	Caused by: java.nio.file.NoSuchFileException: C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT\WEB-INF\lib\angus-activation-2.0.1.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1848)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1414)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 91 more
+28-Nov-2023 17:33:17.228 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Nov-2023 17:33:17.417 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\cinema-java.war]
+28-Nov-2023 17:33:17.494 SEVERE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/cinema-java]
+	java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:100)
+		at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+		at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:192)
+		at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:109)
+		at java.base/sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:70)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:129)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:821)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:960)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:306)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+28-Nov-2023 17:33:17.541 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\cinema-java.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1023)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1910)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:824)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1098)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1301)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1305)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1283)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+	Caused by: org.apache.catalina.LifecycleException: Failed to initialize component [org.apache.catalina.webresources.WarResourceSet@35b86921]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:130)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:161)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:141)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		... 31 more
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.Jre19Compat.jarFileNewInstance(Jre19Compat.java:25)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:275)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.initInternal(AbstractSingleArchiveResourceSet.java:138)
+		... 32 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:79)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 35 more
+	Caused by: java.util.zip.ZipException: zip END header not found
+		at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1618)
+		at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1626)
+		at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1464)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1427)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:723)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:250)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:179)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:339)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+		... 38 more
+28-Nov-2023 17:33:17.587 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\cinema-java.war] has finished in [168] ms
+28-Nov-2023 17:34:17.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 17:34:17.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 17:34:17.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 17:34:17.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 17:34:17.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 17:34:17.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 17:34:17.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 17:34:17.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 17:34:17.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 17:34:17.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:34:17.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:34:17.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 17:34:17.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 17:34:17.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 17:34:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 17:34:17.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 17:34:17.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 17:34:17.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 17:34:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 17:34:17.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 17:34:17.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 17:34:17.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:34:17.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 17:34:17.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 17:34:17.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 17:34:17.277 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 17:34:17.278 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 17:34:17.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 17:34:19.997 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:34:20.153 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4448] milliseconds
+28-Nov-2023 17:34:20.434 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 17:34:20.434 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 17:34:20.653 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 17:34:29.106 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 17:34:29.106 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 17:34:29.106 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 17:34:29.122 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 17:34:30.590 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 17:34:30.918 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+28-Nov-2023 17:34:30.965 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [10,312] ms
+28-Nov-2023 17:34:30.965 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 17:34:31.309 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11159] milliseconds
+28-Nov-2023 18:10:42.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 18:10:42.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 18:10:42.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 18:10:42.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 18:10:42.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 18:10:42.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 18:10:42.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 18:10:42.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 18:10:42.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 18:10:42.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 18:10:42.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 18:10:42.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 18:10:42.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 18:10:42.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 18:10:42.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 18:10:42.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 18:10:43.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 18:10:43.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 18:10:43.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 18:10:43.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 18:10:43.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 18:10:43.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 18:10:43.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 18:10:43.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 18:10:43.024 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 18:10:43.027 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 18:10:43.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 18:10:43.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 18:10:45.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 18:10:45.964 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4261] milliseconds
+28-Nov-2023 18:10:46.230 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 18:10:46.230 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 18:10:46.324 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 18:10:55.808 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 18:10:55.808 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 18:10:55.824 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 18:10:55.824 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 18:10:57.230 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 18:10:57.480 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+28-Nov-2023 18:10:57.558 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [11,234] ms
+28-Nov-2023 18:10:57.558 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 18:10:57.871 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11901] milliseconds
+28-Nov-2023 19:57:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 19:57:40.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 19:57:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 19:57:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 19:57:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 19:57:40.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 19:57:40.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 19:57:40.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 19:57:40.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 19:57:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 19:57:40.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 19:57:40.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 19:57:40.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 19:57:40.329 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 19:57:42.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 19:57:43.141 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4038] milliseconds
+28-Nov-2023 19:57:43.438 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 19:57:43.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 19:57:43.516 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 19:57:52.469 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 19:57:52.485 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 19:57:52.485 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 19:57:52.485 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 19:57:53.782 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 19:57:54.001 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+28-Nov-2023 19:57:54.063 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [10,547] ms
+28-Nov-2023 19:57:54.079 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 19:57:54.266 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11123] milliseconds
+28-Nov-2023 20:01:53.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 20:01:53.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 20:01:53.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:01:53.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:01:53.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 20:01:53.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 20:01:53.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 20:01:53.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 20:01:53.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:01:53.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:01:53.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 20:01:53.238 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 20:01:53.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 20:01:53.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 20:01:53.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 20:01:55.941 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:01:56.050 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4154] milliseconds
+28-Nov-2023 20:01:56.300 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 20:01:56.316 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 20:01:56.394 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 20:02:04.644 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 20:02:04.644 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 20:02:04.660 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 20:02:04.660 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 20:02:06.175 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 20:02:06.457 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [10,063] ms
+28-Nov-2023 20:02:06.457 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:02:06.691 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10642] milliseconds
+28-Nov-2023 20:06:03.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 20:06:03.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 20:06:03.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:06:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:06:03.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 20:06:03.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 20:06:03.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 20:06:03.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:06:03.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:06:03.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 20:06:03.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 20:06:03.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 20:06:03.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 20:06:03.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 20:06:05.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:06:06.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3881] milliseconds
+28-Nov-2023 20:06:06.376 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 20:06:06.376 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 20:06:06.485 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 20:06:15.423 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 20:06:15.438 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 20:06:15.438 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 20:06:15.438 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 20:06:16.610 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 20:06:16.860 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [10,359] ms
+28-Nov-2023 20:06:16.860 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:06:17.473 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11440] milliseconds
+28-Nov-2023 20:25:08.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 20:25:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 20:25:08.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:25:08.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 20:25:08.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 20:25:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 20:25:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 20:25:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:25:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:25:08.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 20:25:08.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 20:25:08.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 20:25:08.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 20:25:08.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 20:25:11.074 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:25:11.183 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3702] milliseconds
+28-Nov-2023 20:25:11.496 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 20:25:11.496 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 20:25:11.605 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 20:25:19.652 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 20:25:19.652 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 20:25:19.652 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 20:25:19.652 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 20:25:21.074 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 20:25:21.339 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [9,734] ms
+28-Nov-2023 20:25:21.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:25:21.591 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10393] milliseconds
+28-Nov-2023 20:30:12.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 20:30:12.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 20:30:12.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 20:30:12.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:30:12.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:30:12.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 20:30:12.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 20:30:12.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 20:30:12.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 20:30:12.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 20:30:12.393 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 20:30:12.393 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 20:30:12.393 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 20:30:12.393 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 20:30:14.596 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:30:14.752 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3479] milliseconds
+28-Nov-2023 20:30:15.065 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 20:30:15.065 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 20:30:15.190 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 20:30:23.221 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 20:30:23.221 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 20:30:23.221 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 20:30:23.237 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 20:30:24.737 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 20:30:25.002 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [9,797] ms
+28-Nov-2023 20:30:25.002 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 20:30:25.237 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10473] milliseconds
+28-Nov-2023 23:44:18.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2012 R2
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 23:44:18.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 23:44:18.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2023 23:44:18.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2023 23:44:18.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Nov-2023 23:44:18.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Nov-2023 23:44:18.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2023 23:44:18.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\conf\logging.properties
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80
+28-Nov-2023 23:44:18.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\temp
+28-Nov-2023 23:44:18.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+28-Nov-2023 23:44:18.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Nov-2023 23:44:18.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Nov-2023 23:44:18.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+28-Nov-2023 23:44:21.598 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+28-Nov-2023 23:44:21.786 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4359] milliseconds
+28-Nov-2023 23:44:22.051 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2023 23:44:22.067 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+28-Nov-2023 23:44:22.192 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war]
+28-Nov-2023 23:44:30.959 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+28-Nov-2023 23:44:30.959 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+28-Nov-2023 23:44:30.973 WARNING [main] java.util.ArrayList.forEach Name = cinemaDB Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+28-Nov-2023 23:44:30.973 INFO [main] java.util.ArrayList.forEach Name = cinemaDB Ignoring unknown property: value of "30" for "maxldle" property
+28-Nov-2023 23:44:32.567 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2023 23:44:32.848 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+28-Nov-2023 23:44:32.911 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Administrator\Desktop\apache-tomcat-9.0.80\webapps\ROOT.war] has finished in [10,719] ms
+28-Nov-2023 23:44:32.926 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+28-Nov-2023 23:44:33.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11346] milliseconds
